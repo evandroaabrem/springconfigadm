@@ -1,3 +1,17 @@
+
+--- os arquivos de configuração estão no github
+https://github.com/evandroaabrem/springconfig
+
+
+--- Startar o projeto que esta no gitHub
+
+https://github.com/evandroaabrem/springconfigserver
+
+---- em seguinda startar o projeto que esta no github
+
+https://github.com/evandroaabrem/springconfigadm
+
+
 curl.exe -X PUT http://localhost:8081/github/dev `
   -H "Content-Type: text/plain" `
   --data-binary "server.port=9090`n`nspring.datasource.url=jdbc:mysql://localhost/dev`n`nspring.datasource.username=dev_user`n`nspring.datasource.password=dev_pass`nfeature.flag.novaFuncionalidade=true"
